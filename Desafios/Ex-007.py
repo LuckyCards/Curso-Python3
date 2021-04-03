@@ -1,0 +1,17 @@
+print(f'\033[33m{"—"*30:^30}\033[m')
+print(f'\033[36m{"EXERCÍCIO Nº 7":^30}\033[m')
+print(f'\033[33m{"—"*30:^30}\033[m')
+print('Boletim do Aluno! Veja sua média')
+nome = input('Nome do aluno: ')
+nota1 = float(input('Nota de Português: '))
+nota2 = float(input('Nota de Matemática: '))
+nota3 = float(input('Nota de Física: '))
+nota4 = float(input('Nota de Química: '))
+média = (nota1 + nota2 + nota3 + nota4) / 4
+print(f'\nBoletim do Aluno ({nome}): ')
+print(f'A média do {nome} foi de: {média:.1f}!')
+print(f'Nota de {"Português":.<12}: {nota1}!')
+print(f'Nota de {"Matemática":.<12}: {nota2}!')
+print(f'Nota de {"Física":.<12}: {nota3}!')
+print(f'Nota de {"Química":.<12}: {nota4}!')
+

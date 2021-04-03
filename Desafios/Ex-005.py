@@ -1,0 +1,6 @@
+print(f'\033[33m{"—"*30:^30}\033[m')
+print(f'\033[36m{"EXERCÍCIO Nº 5":^30}\033[m')
+print(f'\033[33m{"—"*30:^30}\033[m')
+print('Veja o sucessor e o antecessor de um número!')
+num = int(input('Digite um número: '))
+print(f'Antecessor: {num - 1} \nSucessor: {num + 1}')

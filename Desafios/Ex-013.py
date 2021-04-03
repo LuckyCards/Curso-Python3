@@ -1,0 +1,11 @@
+print(f'\033[33m{"—"*30:^30}\033[m')
+print(f'\033[36m{"EXERCÍCIO Nº 13":^30}\033[m')
+print(f'\033[33m{"—"*30:^30}\033[m')
+funcionário = input('Nome do funcionário: ')
+salMin = float(input('Salário minimo atual: '))
+bonus = int(input('Bonus salarial: '))
+salAum = bonus/100 * salMin + salMin
+print(f'\nFicha Técnica do Funcionário {funcionário}:')
+print(f'Bonus Salarial: {bonus}%')
+print(f'Salário sem bonificação: R${salMin:.2f}')
+print(f'Salário com bonificação: R${salAum:.2f}')

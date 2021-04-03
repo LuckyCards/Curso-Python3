@@ -1,0 +1,11 @@
+import math
+print(f'\033[33m{"—"*30:^30}\033[m')
+print(f'\033[36m{"EXERCÍCIO Nº 18":^30}\033[m')
+print(f'\033[33m{"—"*30:^30}\033[m')
+ang = float(input('Digite um ângulo: '))
+cosAng = math.cos(math.radians(ang))
+senAng = math.sin(math.radians(ang))
+tanAng = math.tan(math.radians(ang))
+print(f'O cosseno de {ang} é {cosAng:.2f}')
+print(f'O seno de {ang} é {senAng:.2f}')
+print(f'A tangente de {ang} é {tanAng:.2f}')

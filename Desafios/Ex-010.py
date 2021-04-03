@@ -1,0 +1,10 @@
+print(f'\033[33m{"—"*30:^30}\033[m')
+print(f'\033[36m{"EXERCÍCIO Nº 10":^30}\033[m')
+print(f'\033[33m{"—"*30:^30}\033[m')
+user = input('Insira o usúario: ')
+saldo = float(input('Digite seu saldo: '))
+dolar = float(input('Insira a cotação do dolar: '))
+print('\nSua carteira virtual: ')
+print(f'Usuário: {user} \nAgência - 001 \nNº da Conta - 7469584-8')
+print(f'Seu saldo atual: R${saldo} / ${saldo / dolar:.2f}')
+

@@ -1,0 +1,7 @@
+print(f'\033[33m{"—"*30:^30}\033[m')
+print(f'\033[36m{"EXERCÍCIO Nº 22":^30}\033[m')
+print(f'\033[33m{"—"*30:^30}\033[m')
+userName = str(input('Digite seu nome: ')).strip()
+print(f'Usuário: {userName.title()}')
+print(f'Tem {len(userName) - userName.count(" ")} letras no total.')
+print(f'O 1º nome tem {userName.find(" ")} letras.')
