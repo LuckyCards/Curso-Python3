@@ -1,3 +1,6 @@
+print(f'\033[33m{"—"*30:^30}\033[m')
+print(f'\033[36m{"EXERCÍCIO Nº 71":^30}\033[m')
+print(f'\033[33m{"—"*30:^30}\033[m')
 saque = int(input('Digite o valor a ser sacado: '))
 ced50 = saque // 50
 saque = saque - ced50 * 50

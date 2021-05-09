@@ -1,3 +1,6 @@
+print(f'\033[33m{"—"*30:^30}\033[m')
+print(f'\033[36m{"EXERCÍCIO Nº 70":^30}\033[m')
+print(f'\033[33m{"—"*30:^30}\033[m')
 prodRich = prodCheap = '' #Nome do produto mais caro e mais barato
 priceRich = priceCheap = 0 #Preço do produto mais caro e mais barato
 total = prod1000 = 0 #Total gasto e produtos acima de 1000 reais
